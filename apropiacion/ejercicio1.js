@@ -1,7 +1,8 @@
-// ── Ejercicio C1: Múltiplos de 3 del 1 al 20 
-//  // Se recorren los números del 1 al 20 con un ciclo for. 
-// // Dentro del ciclo, un condicional verifica si el número 
-// // es múltiplo de 3 usando el operador módulo (%).
+// ── Ejercicio C1: Múltiplos de 3 del 1 al 20 ────────────────────
+// Se recorren los números del 1 al 20 con un ciclo for.
+// Dentro del ciclo, un condicional verifica si el número
+// es múltiplo de 3 usando el operador módulo (%).
+
 function obtenerMultiplos() {
     let resultado = "Números del 1 al 20 — Solo múltiplos de 3:\n";
     resultado += "─".repeat(40) + "\n";

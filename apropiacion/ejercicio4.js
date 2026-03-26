@@ -20,10 +20,10 @@ while (saldo > 0 && i < retiros.length) {
   // Condicional: verificar si el monto es posible
   if (monto <= saldo) {
     saldo -= monto;
-    resultado += "  ✓ Retiro exitoso\n";
+    resultado += "  Retiro exitoso\n";
     resultado += "  Saldo restante: $" + saldo.toLocaleString() + "\n";
   } else {
-    resultado += "  ✗ Saldo insuficiente\n";
+    resultado += "  Saldo insuficiente\n";
     resultado += "  Saldo disponible: $" + saldo.toLocaleString() + "\n";
   }
 

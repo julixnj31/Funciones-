@@ -1,4 +1,4 @@
-// ── Ejercicio 3: Cajero Automático ───────────────────────────────
+// ── Ejercicio 3 trasnferencia : Cajero Automático ───────────────────────────────
 
 const SALDO_INICIAL = 500000;
 let saldo = SALDO_INICIAL;
